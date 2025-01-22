@@ -11,12 +11,16 @@ print("How to use playgrounds to make writing Swift fun and simple")
  Now print your own phrases to the console. Pick one of your favorite songs. Use your knowledge of the `print` function to display the song title and artist.
  */
 
+ print("Catch the rainbow")
+ print("By Ritche Blackmore")
 
 /*:
  Use multiple `print` functions to write out some of the lyrics to the song.
  */
 
-
+print("We believe wed catch the rainbow")
+print("ride the wind to the sun")
+print("sail away on ships of wonder")
 
 /*:
 
