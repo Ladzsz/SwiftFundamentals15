@@ -1,1 +1,9 @@
-{}
+Three responsibilities of UIview are for drawing and animation,  layout management, and event handling/listeneing.
+
+Views inside another view are called subviews.
+
+The parent view is called a super view.
+
+An instance property that describes a views location and size inside its parent view. Is called the frame.
+
+Bounds is different from frame because its location and size in the coordinate system not the parent view.
