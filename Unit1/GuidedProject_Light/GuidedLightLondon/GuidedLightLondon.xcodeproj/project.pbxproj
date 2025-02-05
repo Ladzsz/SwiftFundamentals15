@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E77385462D53AD1200F8ED1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77385272D53AD1000F8ED1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E773852E2D53AD1000F8ED1D;
+			remoteInfo = GuidedLightLondon;
+		};
+		E77385502D53AD1200F8ED1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77385272D53AD1000F8ED1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E773852E2D53AD1000F8ED1D;
+			remoteInfo = GuidedLightLondon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E773852F2D53AD1000F8ED1D /* GuidedLightLondon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuidedLightLondon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77385452D53AD1200F8ED1D /* GuidedLightLondonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuidedLightLondonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E773854F2D53AD1200F8ED1D /* GuidedLightLondonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuidedLightLondonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E77385572D53AD1200F8ED1D /* Exceptions for "GuidedLightLondon" folder in "GuidedLightLondon" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E773852E2D53AD1000F8ED1D /* GuidedLightLondon */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E77385312D53AD1000F8ED1D /* GuidedLightLondon */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E77385572D53AD1200F8ED1D /* Exceptions for "GuidedLightLondon" folder in "GuidedLightLondon" target */,
+			);
+			path = GuidedLightLondon;
+			sourceTree = "<group>";
+		};
+		E77385482D53AD1200F8ED1D /* GuidedLightLondonTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GuidedLightLondonTests;
+			sourceTree = "<group>";
+		};
+		E77385522D53AD1200F8ED1D /* GuidedLightLondonUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GuidedLightLondonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E773852C2D53AD1000F8ED1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77385422D53AD1200F8ED1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E773854C2D53AD1200F8ED1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E77385262D53AD1000F8ED1D = {
+			isa = PBXGroup;
+			children = (
+				E77385312D53AD1000F8ED1D /* GuidedLightLondon */,
+				E77385482D53AD1200F8ED1D /* GuidedLightLondonTests */,
+				E77385522D53AD1200F8ED1D /* GuidedLightLondonUITests */,
+				E77385302D53AD1000F8ED1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E77385302D53AD1000F8ED1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E773852F2D53AD1000F8ED1D /* GuidedLightLondon.app */,
+				E77385452D53AD1200F8ED1D /* GuidedLightLondonTests.xctest */,
+				E773854F2D53AD1200F8ED1D /* GuidedLightLondonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E773852E2D53AD1000F8ED1D /* GuidedLightLondon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77385582D53AD1200F8ED1D /* Build configuration list for PBXNativeTarget "GuidedLightLondon" */;
+			buildPhases = (
+				E773852B2D53AD1000F8ED1D /* Sources */,
+				E773852C2D53AD1000F8ED1D /* Frameworks */,
+				E773852D2D53AD1000F8ED1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E77385312D53AD1000F8ED1D /* GuidedLightLondon */,
+			);
+			name = GuidedLightLondon;
+			packageProductDependencies = (
+			);
+			productName = GuidedLightLondon;
+			productReference = E773852F2D53AD1000F8ED1D /* GuidedLightLondon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E77385442D53AD1200F8ED1D /* GuidedLightLondonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E773855D2D53AD1200F8ED1D /* Build configuration list for PBXNativeTarget "GuidedLightLondonTests" */;
+			buildPhases = (
+				E77385412D53AD1200F8ED1D /* Sources */,
+				E77385422D53AD1200F8ED1D /* Frameworks */,
+				E77385432D53AD1200F8ED1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E77385472D53AD1200F8ED1D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E77385482D53AD1200F8ED1D /* GuidedLightLondonTests */,
+			);
+			name = GuidedLightLondonTests;
+			packageProductDependencies = (
+			);
+			productName = GuidedLightLondonTests;
+			productReference = E77385452D53AD1200F8ED1D /* GuidedLightLondonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E773854E2D53AD1200F8ED1D /* GuidedLightLondonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77385602D53AD1200F8ED1D /* Build configuration list for PBXNativeTarget "GuidedLightLondonUITests" */;
+			buildPhases = (
+				E773854B2D53AD1200F8ED1D /* Sources */,
+				E773854C2D53AD1200F8ED1D /* Frameworks */,
+				E773854D2D53AD1200F8ED1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E77385512D53AD1200F8ED1D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E77385522D53AD1200F8ED1D /* GuidedLightLondonUITests */,
+			);
+			name = GuidedLightLondonUITests;
+			packageProductDependencies = (
+			);
+			productName = GuidedLightLondonUITests;
+			productReference = E773854F2D53AD1200F8ED1D /* GuidedLightLondonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E77385272D53AD1000F8ED1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					E773852E2D53AD1000F8ED1D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E77385442D53AD1200F8ED1D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E773852E2D53AD1000F8ED1D;
+					};
+					E773854E2D53AD1200F8ED1D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E773852E2D53AD1000F8ED1D;
+					};
+				};
+			};
+			buildConfigurationList = E773852A2D53AD1000F8ED1D /* Build configuration list for PBXProject "GuidedLightLondon" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E77385262D53AD1000F8ED1D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E77385302D53AD1000F8ED1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E773852E2D53AD1000F8ED1D /* GuidedLightLondon */,
+				E77385442D53AD1200F8ED1D /* GuidedLightLondonTests */,
+				E773854E2D53AD1200F8ED1D /* GuidedLightLondonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E773852D2D53AD1000F8ED1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77385432D53AD1200F8ED1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E773854D2D53AD1200F8ED1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E773852B2D53AD1000F8ED1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77385412D53AD1200F8ED1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E773854B2D53AD1200F8ED1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E77385472D53AD1200F8ED1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E773852E2D53AD1000F8ED1D /* GuidedLightLondon */;
+			targetProxy = E77385462D53AD1200F8ED1D /* PBXContainerItemProxy */;
+		};
+		E77385512D53AD1200F8ED1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E773852E2D53AD1000F8ED1D /* GuidedLightLondon */;
+			targetProxy = E77385502D53AD1200F8ED1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E77385592D53AD1200F8ED1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuidedLightLondon/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ladzsz.GuidedLightLondon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E773855A2D53AD1200F8ED1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuidedLightLondon/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ladzsz.GuidedLightLondon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E773855B2D53AD1200F8ED1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E773855C2D53AD1200F8ED1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E773855E2D53AD1200F8ED1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ladzsz.GuidedLightLondonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuidedLightLondon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GuidedLightLondon";
+			};
+			name = Debug;
+		};
+		E773855F2D53AD1200F8ED1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ladzsz.GuidedLightLondonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuidedLightLondon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GuidedLightLondon";
+			};
+			name = Release;
+		};
+		E77385612D53AD1200F8ED1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ladzsz.GuidedLightLondonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuidedLightLondon;
+			};
+			name = Debug;
+		};
+		E77385622D53AD1200F8ED1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ladzsz.GuidedLightLondonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuidedLightLondon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E773852A2D53AD1000F8ED1D /* Build configuration list for PBXProject "GuidedLightLondon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E773855B2D53AD1200F8ED1D /* Debug */,
+				E773855C2D53AD1200F8ED1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77385582D53AD1200F8ED1D /* Build configuration list for PBXNativeTarget "GuidedLightLondon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77385592D53AD1200F8ED1D /* Debug */,
+				E773855A2D53AD1200F8ED1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E773855D2D53AD1200F8ED1D /* Build configuration list for PBXNativeTarget "GuidedLightLondonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E773855E2D53AD1200F8ED1D /* Debug */,
+				E773855F2D53AD1200F8ED1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77385602D53AD1200F8ED1D /* Build configuration list for PBXNativeTarget "GuidedLightLondonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77385612D53AD1200F8ED1D /* Debug */,
+				E77385622D53AD1200F8ED1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E77385272D53AD1000F8ED1D /* Project object */;
+}
