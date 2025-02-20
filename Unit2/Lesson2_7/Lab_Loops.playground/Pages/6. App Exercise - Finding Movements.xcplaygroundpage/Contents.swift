@@ -10,8 +10,14 @@
  */
 let lowHR = 110
 let highHR = 125
-var movementHeartRates: [String: Int] = ["Walking": 85, "Running": 120, "Swimming": 130, "Cycling": 128, "Skiing": 114, "Climbing": 129]
-
+var movementHeartRates: [String: Int] = ["Walking": 82, "Running": 120, "Swimming": 130, "Cycling": 128, "Skiing": 114, "Climbing": 129]
+for (move, rate) in movementHeartRates {
+    if rate < lowHR || rate > highHR {
+        print("You could go \(move)")
+    } else {
+        continue
+    }
+}
 
 /*:
  _Copyright © 2023 Apple Inc._
