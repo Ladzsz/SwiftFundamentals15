@@ -37,14 +37,39 @@ class Fighter: Spaceship {
     }
 }
 //:  Define a new class `ShieldedShip` that inherits from `Fighter`. Add a variable property `shieldStrength` that defaults to 25. Create a new instance of `ShieldedShip` called `defender`. Set `name` to "Defender" and `weapon` to "Cannon." Call `moveRight()` and print `position`, then call `fire()` and print `remainingFirePower`.
+class shieldedship: Fighter {
+    var shieldedstrength: Int = 25
+    
+    override func wasHit() {
+        if shieldedstrength > 0 {
+            shieldedstrength -= 5
+        } else {
+            super.wasHit()
+        }
+    }
+}
 
+let defender = shieldedship()
+defender.name = "Defender"
+defender.weapon = "cannon"
+
+defender.moveRight()
+
+print(defender.position)
+
+defender.fire()
+
+print(defender.remainingFirePower)
 
 //:  Go back to your declaration of `ShieldedShip` and override `wasHit()`. In the body of the method, check to see if `shieldStrength` is greater than 0. If it is, decrement `shieldStrength` by 5. Otherwise, decrement `health` by 5. Call `wasHit()` on `defender` and print `shieldStrength` and `health`.
+defender.wasHit()
 
+print(defender.shieldedstrength, defender.health)
 
 //:  When `shieldStrength` is 0, all `wasHit()` does is decrement `health` by 5. That's exactly what the implementation of `wasHit()` on `Spaceship` does! Instead of rewriting that, you can call through to the superclass implementation of `wasHit()`. Go back to your implementation of `wasHit()` on `ShieldedShip` and remove the code where you decrement `health` by 5 and replace it with a call to the superclass's implementation of the method. Call `wasHit()` on `defender`, then print `shieldStrength` and `health`.
+defender.wasHit()
 
-
+print(defender.shieldedstrength, defender.health)
 /*:
 [Previous](@previous)  |  page 3 of 4  |  [Next: Exercise - Class Memberwise Initializers and References](@next)
  */
