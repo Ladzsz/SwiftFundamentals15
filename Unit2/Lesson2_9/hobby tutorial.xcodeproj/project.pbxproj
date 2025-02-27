@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E77DCA6C2D70E49A0026EADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77DCA4D2D70E4970026EADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77DCA542D70E4970026EADA;
+			remoteInfo = "hobby tutorial";
+		};
+		E77DCA762D70E49A0026EADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77DCA4D2D70E4970026EADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77DCA542D70E4970026EADA;
+			remoteInfo = "hobby tutorial";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E77DCA552D70E4970026EADA /* hobby tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hobby tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77DCA6B2D70E49A0026EADA /* hobby tutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hobby tutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77DCA752D70E49A0026EADA /* hobby tutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hobby tutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E77DCA7D2D70E49A0026EADA /* Exceptions for "hobby tutorial" folder in "hobby tutorial" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E77DCA542D70E4970026EADA /* hobby tutorial */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E77DCA572D70E4970026EADA /* hobby tutorial */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E77DCA7D2D70E49A0026EADA /* Exceptions for "hobby tutorial" folder in "hobby tutorial" target */,
+			);
+			path = "hobby tutorial";
+			sourceTree = "<group>";
+		};
+		E77DCA6E2D70E49A0026EADA /* hobby tutorialTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "hobby tutorialTests";
+			sourceTree = "<group>";
+		};
+		E77DCA782D70E49A0026EADA /* hobby tutorialUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "hobby tutorialUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E77DCA522D70E4970026EADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77DCA682D70E49A0026EADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77DCA722D70E49A0026EADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E77DCA4C2D70E4970026EADA = {
+			isa = PBXGroup;
+			children = (
+				E77DCA572D70E4970026EADA /* hobby tutorial */,
+				E77DCA6E2D70E49A0026EADA /* hobby tutorialTests */,
+				E77DCA782D70E49A0026EADA /* hobby tutorialUITests */,
+				E77DCA562D70E4970026EADA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E77DCA562D70E4970026EADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E77DCA552D70E4970026EADA /* hobby tutorial.app */,
+				E77DCA6B2D70E49A0026EADA /* hobby tutorialTests.xctest */,
+				E77DCA752D70E49A0026EADA /* hobby tutorialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E77DCA542D70E4970026EADA /* hobby tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77DCA7E2D70E49A0026EADA /* Build configuration list for PBXNativeTarget "hobby tutorial" */;
+			buildPhases = (
+				E77DCA512D70E4970026EADA /* Sources */,
+				E77DCA522D70E4970026EADA /* Frameworks */,
+				E77DCA532D70E4970026EADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E77DCA572D70E4970026EADA /* hobby tutorial */,
+			);
+			name = "hobby tutorial";
+			packageProductDependencies = (
+			);
+			productName = "hobby tutorial";
+			productReference = E77DCA552D70E4970026EADA /* hobby tutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E77DCA6A2D70E49A0026EADA /* hobby tutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77DCA832D70E49A0026EADA /* Build configuration list for PBXNativeTarget "hobby tutorialTests" */;
+			buildPhases = (
+				E77DCA672D70E49A0026EADA /* Sources */,
+				E77DCA682D70E49A0026EADA /* Frameworks */,
+				E77DCA692D70E49A0026EADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E77DCA6D2D70E49A0026EADA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E77DCA6E2D70E49A0026EADA /* hobby tutorialTests */,
+			);
+			name = "hobby tutorialTests";
+			packageProductDependencies = (
+			);
+			productName = "hobby tutorialTests";
+			productReference = E77DCA6B2D70E49A0026EADA /* hobby tutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E77DCA742D70E49A0026EADA /* hobby tutorialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77DCA862D70E49A0026EADA /* Build configuration list for PBXNativeTarget "hobby tutorialUITests" */;
+			buildPhases = (
+				E77DCA712D70E49A0026EADA /* Sources */,
+				E77DCA722D70E49A0026EADA /* Frameworks */,
+				E77DCA732D70E49A0026EADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E77DCA772D70E49A0026EADA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E77DCA782D70E49A0026EADA /* hobby tutorialUITests */,
+			);
+			name = "hobby tutorialUITests";
+			packageProductDependencies = (
+			);
+			productName = "hobby tutorialUITests";
+			productReference = E77DCA752D70E49A0026EADA /* hobby tutorialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E77DCA4D2D70E4970026EADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					E77DCA542D70E4970026EADA = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E77DCA6A2D70E49A0026EADA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E77DCA542D70E4970026EADA;
+					};
+					E77DCA742D70E49A0026EADA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E77DCA542D70E4970026EADA;
+					};
+				};
+			};
+			buildConfigurationList = E77DCA502D70E4970026EADA /* Build configuration list for PBXProject "hobby tutorial" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E77DCA4C2D70E4970026EADA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E77DCA562D70E4970026EADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E77DCA542D70E4970026EADA /* hobby tutorial */,
+				E77DCA6A2D70E49A0026EADA /* hobby tutorialTests */,
+				E77DCA742D70E49A0026EADA /* hobby tutorialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E77DCA532D70E4970026EADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77DCA692D70E49A0026EADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77DCA732D70E49A0026EADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E77DCA512D70E4970026EADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77DCA672D70E49A0026EADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77DCA712D70E49A0026EADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E77DCA6D2D70E49A0026EADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E77DCA542D70E4970026EADA /* hobby tutorial */;
+			targetProxy = E77DCA6C2D70E49A0026EADA /* PBXContainerItemProxy */;
+		};
+		E77DCA772D70E49A0026EADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E77DCA542D70E4970026EADA /* hobby tutorial */;
+			targetProxy = E77DCA762D70E49A0026EADA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E77DCA7F2D70E49A0026EADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hobby tutorial/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ladzsz.hobby-tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E77DCA802D70E49A0026EADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hobby tutorial/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ladzsz.hobby-tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E77DCA812D70E49A0026EADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E77DCA822D70E49A0026EADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E77DCA842D70E49A0026EADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ladzsz.hobby-tutorialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hobby tutorial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hobby tutorial";
+			};
+			name = Debug;
+		};
+		E77DCA852D70E49A0026EADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ladzsz.hobby-tutorialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hobby tutorial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hobby tutorial";
+			};
+			name = Release;
+		};
+		E77DCA872D70E49A0026EADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ladzsz.hobby-tutorialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hobby tutorial";
+			};
+			name = Debug;
+		};
+		E77DCA882D70E49A0026EADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ladzsz.hobby-tutorialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hobby tutorial";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E77DCA502D70E4970026EADA /* Build configuration list for PBXProject "hobby tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77DCA812D70E49A0026EADA /* Debug */,
+				E77DCA822D70E49A0026EADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77DCA7E2D70E49A0026EADA /* Build configuration list for PBXNativeTarget "hobby tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77DCA7F2D70E49A0026EADA /* Debug */,
+				E77DCA802D70E49A0026EADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77DCA832D70E49A0026EADA /* Build configuration list for PBXNativeTarget "hobby tutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77DCA842D70E49A0026EADA /* Debug */,
+				E77DCA852D70E49A0026EADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77DCA862D70E49A0026EADA /* Build configuration list for PBXNativeTarget "hobby tutorialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77DCA872D70E49A0026EADA /* Debug */,
+				E77DCA882D70E49A0026EADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E77DCA4D2D70E4970026EADA /* Project object */;
+}
