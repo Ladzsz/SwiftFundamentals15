@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E77DCAA92D70EEDA0026EADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77DCA8A2D70EED80026EADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77DCA912D70EED80026EADA;
+			remoteInfo = "Two buttons";
+		};
+		E77DCAB32D70EEDA0026EADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77DCA8A2D70EED80026EADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77DCA912D70EED80026EADA;
+			remoteInfo = "Two buttons";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E77DCA922D70EED80026EADA /* Two buttons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Two buttons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77DCAA82D70EEDA0026EADA /* Two buttonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two buttonsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77DCAB22D70EEDA0026EADA /* Two buttonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two buttonsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E77DCABA2D70EEDA0026EADA /* Exceptions for "Two buttons" folder in "Two buttons" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E77DCA912D70EED80026EADA /* Two buttons */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E77DCA942D70EED80026EADA /* Two buttons */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E77DCABA2D70EEDA0026EADA /* Exceptions for "Two buttons" folder in "Two buttons" target */,
+			);
+			path = "Two buttons";
+			sourceTree = "<group>";
+		};
+		E77DCAAB2D70EEDA0026EADA /* Two buttonsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Two buttonsTests";
+			sourceTree = "<group>";
+		};
+		E77DCAB52D70EEDA0026EADA /* Two buttonsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Two buttonsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E77DCA8F2D70EED80026EADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77DCAA52D70EEDA0026EADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77DCAAF2D70EEDA0026EADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E77DCA892D70EED80026EADA = {
+			isa = PBXGroup;
+			children = (
+				E77DCA942D70EED80026EADA /* Two buttons */,
+				E77DCAAB2D70EEDA0026EADA /* Two buttonsTests */,
+				E77DCAB52D70EEDA0026EADA /* Two buttonsUITests */,
+				E77DCA932D70EED80026EADA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E77DCA932D70EED80026EADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E77DCA922D70EED80026EADA /* Two buttons.app */,
+				E77DCAA82D70EEDA0026EADA /* Two buttonsTests.xctest */,
+				E77DCAB22D70EEDA0026EADA /* Two buttonsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E77DCA912D70EED80026EADA /* Two buttons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77DCABB2D70EEDA0026EADA /* Build configuration list for PBXNativeTarget "Two buttons" */;
+			buildPhases = (
+				E77DCA8E2D70EED80026EADA /* Sources */,
+				E77DCA8F2D70EED80026EADA /* Frameworks */,
+				E77DCA902D70EED80026EADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E77DCA942D70EED80026EADA /* Two buttons */,
+			);
+			name = "Two buttons";
+			packageProductDependencies = (
+			);
+			productName = "Two buttons";
+			productReference = E77DCA922D70EED80026EADA /* Two buttons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E77DCAA72D70EEDA0026EADA /* Two buttonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77DCAC02D70EEDA0026EADA /* Build configuration list for PBXNativeTarget "Two buttonsTests" */;
+			buildPhases = (
+				E77DCAA42D70EEDA0026EADA /* Sources */,
+				E77DCAA52D70EEDA0026EADA /* Frameworks */,
+				E77DCAA62D70EEDA0026EADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E77DCAAA2D70EEDA0026EADA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E77DCAAB2D70EEDA0026EADA /* Two buttonsTests */,
+			);
+			name = "Two buttonsTests";
+			packageProductDependencies = (
+			);
+			productName = "Two buttonsTests";
+			productReference = E77DCAA82D70EEDA0026EADA /* Two buttonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E77DCAB12D70EEDA0026EADA /* Two buttonsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77DCAC32D70EEDA0026EADA /* Build configuration list for PBXNativeTarget "Two buttonsUITests" */;
+			buildPhases = (
+				E77DCAAE2D70EEDA0026EADA /* Sources */,
+				E77DCAAF2D70EEDA0026EADA /* Frameworks */,
+				E77DCAB02D70EEDA0026EADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E77DCAB42D70EEDA0026EADA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E77DCAB52D70EEDA0026EADA /* Two buttonsUITests */,
+			);
+			name = "Two buttonsUITests";
+			packageProductDependencies = (
+			);
+			productName = "Two buttonsUITests";
+			productReference = E77DCAB22D70EEDA0026EADA /* Two buttonsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E77DCA8A2D70EED80026EADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					E77DCA912D70EED80026EADA = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E77DCAA72D70EEDA0026EADA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E77DCA912D70EED80026EADA;
+					};
+					E77DCAB12D70EEDA0026EADA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E77DCA912D70EED80026EADA;
+					};
+				};
+			};
+			buildConfigurationList = E77DCA8D2D70EED80026EADA /* Build configuration list for PBXProject "Two buttons" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E77DCA892D70EED80026EADA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E77DCA932D70EED80026EADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E77DCA912D70EED80026EADA /* Two buttons */,
+				E77DCAA72D70EEDA0026EADA /* Two buttonsTests */,
+				E77DCAB12D70EEDA0026EADA /* Two buttonsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E77DCA902D70EED80026EADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77DCAA62D70EEDA0026EADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77DCAB02D70EEDA0026EADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E77DCA8E2D70EED80026EADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77DCAA42D70EEDA0026EADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77DCAAE2D70EEDA0026EADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E77DCAAA2D70EEDA0026EADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E77DCA912D70EED80026EADA /* Two buttons */;
+			targetProxy = E77DCAA92D70EEDA0026EADA /* PBXContainerItemProxy */;
+		};
+		E77DCAB42D70EEDA0026EADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E77DCA912D70EED80026EADA /* Two buttons */;
+			targetProxy = E77DCAB32D70EEDA0026EADA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E77DCABC2D70EEDA0026EADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Two buttons/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ladzsz.Two-buttons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E77DCABD2D70EEDA0026EADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Two buttons/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ladzsz.Two-buttons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E77DCABE2D70EEDA0026EADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E77DCABF2D70EEDA0026EADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E77DCAC12D70EEDA0026EADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ladzsz.Two-buttonsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Two buttons.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Two buttons";
+			};
+			name = Debug;
+		};
+		E77DCAC22D70EEDA0026EADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ladzsz.Two-buttonsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Two buttons.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Two buttons";
+			};
+			name = Release;
+		};
+		E77DCAC42D70EEDA0026EADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ladzsz.Two-buttonsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Two buttons";
+			};
+			name = Debug;
+		};
+		E77DCAC52D70EEDA0026EADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ladzsz.Two-buttonsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Two buttons";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E77DCA8D2D70EED80026EADA /* Build configuration list for PBXProject "Two buttons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77DCABE2D70EEDA0026EADA /* Debug */,
+				E77DCABF2D70EEDA0026EADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77DCABB2D70EEDA0026EADA /* Build configuration list for PBXNativeTarget "Two buttons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77DCABC2D70EEDA0026EADA /* Debug */,
+				E77DCABD2D70EEDA0026EADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77DCAC02D70EEDA0026EADA /* Build configuration list for PBXNativeTarget "Two buttonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77DCAC12D70EEDA0026EADA /* Debug */,
+				E77DCAC22D70EEDA0026EADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77DCAC32D70EEDA0026EADA /* Build configuration list for PBXNativeTarget "Two buttonsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77DCAC42D70EEDA0026EADA /* Debug */,
+				E77DCAC52D70EEDA0026EADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E77DCA8A2D70EED80026EADA /* Project object */;
+}
